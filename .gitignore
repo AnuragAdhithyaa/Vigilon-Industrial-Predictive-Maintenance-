@@ -1,0 +1,51 @@
+# ==============================
+# Python virtual environments
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Python cache / compiled files
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# OS generated files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+
+# ==============================
+# Federated Learning generated metrics
+# ==============================
+results/metrics/client_*.json
+results/metrics/server_round_*.json
+
+# Keep global metrics for project demonstration
+!results/metrics/global_metrics.json

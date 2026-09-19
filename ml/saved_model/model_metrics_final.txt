@@ -1,0 +1,20 @@
+--- Motor Model Performance (v2_3class_motor) ---
+Final Test Accuracy: 85.03%
+Final Test Loss: 0.3452
+
+--- Detailed Class Report ---
+              precision    recall  f1-score   support
+
+      Normal       0.85      0.89      0.87     16644
+      Likely       0.86      0.81      0.83     15685
+      Faulty       0.84      0.85      0.84     14546
+
+    accuracy                           0.85     46875
+   macro avg       0.85      0.85      0.85     46875
+weighted avg       0.85      0.85      0.85     46875
+
+--- Scaler Parameters for C++ Implementation ---
+Mean Values: [-0.6871108250943697, 1.0976628333024359, 1.3421263380999615, 0.5173076577898897]
+Std Dev (Scale): [2.619642091759502, 85.55473150836772, 29.766339094090274, 63.45644173493325]
+
+Formula: (input - mean) / std_dev

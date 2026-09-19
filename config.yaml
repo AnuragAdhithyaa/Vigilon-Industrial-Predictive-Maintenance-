@@ -1,0 +1,27 @@
+federated:
+  num_rounds: 20
+  num_clients: 3
+  local_epochs: 2
+  local_batch_size: 32 
+  aggregation: median
+
+security:
+  attack_enabled: false
+  attack_client_id: 2
+  attack_noise_scale: 10.0
+
+privacy:
+  dp_enabled: true
+  epsilon: 1.0
+  max_grad_norm: 1.0
+  noise_multiplier: 1.1
+
+data:
+  num_clients: 3
+  split_strategy: non_iid
+  dirichlet_alpha: 0.5
+  train_ratio: 0.8
+
+logging:
+  save_metrics: true
+  metrics_dir: results/metrics/
